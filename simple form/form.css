@@ -20,6 +20,7 @@ body{
     background-color: white;
     padding: 1rem;
     border-radius: 1rem;
+    gap: 1.5rem;
 }
 #form_content .title_form{
     display: flex;
@@ -39,10 +40,30 @@ body{
 .title_form span a {
     color: rgb(206, 23, 206);
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+.container label span {
+    font-size: 0.8rem;
+    color: rgb(136, 136, 136);
+    cursor: pointer;
+}
+.container label span:hover {
+    font-size: 0.8rem;
+    color: blueviolet;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
 .input_content {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    width: 95%;
 }
 .input_content label{
     font-size: 0.89rem;
@@ -52,6 +73,7 @@ body{
     border-radius: 0.3rem;
     padding: 8px;
     border: 1px solid gray;
+    width: 100%;
 }
 button[type="submit"]{
     width: 70%;
@@ -61,7 +83,14 @@ button[type="submit"]{
     color: white;
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
     border-radius: 1.5rem;
+}
+
+
+#form_content > span {
+    font-size: 0.8rem;
+    color: rgb(142, 142, 142);
 }
 
 
