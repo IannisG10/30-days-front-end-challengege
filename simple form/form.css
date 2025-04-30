@@ -1,6 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-image: url('purple-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
 }
+
+#form_content{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#form_content .title_form{
+    display: flex;
+    gap: 0.3rem;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.title_form h3{
+    margin: 0;
+    font-size: 2rem;
+}
+.title_form span {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.title_form span a {
+    color: rgb(206, 23, 206);
+}
+
+
