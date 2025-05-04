@@ -1,7 +1,11 @@
-# Day 2 - Simple Form
+# Day 3 - FAQ Template
 
 ## Overview  
-For Day 2 of the 30 Days Front-End Challenge, I built a simple  HTML form styled with CSS. This project focuses on layout, form input types, and basic styling techniques.
+For Day 3 of the 30 Days Front-End Challenge, I created a simple FAQ (Frequently Asked Questions) template using only HTML and CSS. 
+
+## What I Learned  
+- Using grid 
+- Enhancing readability and user experience with spacing and typography 
 
 ## What I Learned  
 - Creating form structures with `input`, `label`
