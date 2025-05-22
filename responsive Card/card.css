@@ -20,12 +20,14 @@ body{
 }
 #product_details{
     background-color: blueviolet;
+    padding: 0.3em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
 }
 
-#product_details h5 {
+#product_details h5,article {
     margin: 0;
+    text-align: center;
 }
