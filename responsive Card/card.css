@@ -4,6 +4,7 @@ body{
     height: 100vh;
     width: 100%;
     align-items: center;
+    margin: 0;
 }
 #card_container{
     display:  flex;
@@ -16,8 +17,9 @@ body{
     width: 35%;
 }
 #img_container img{
-    height: 150px;
+    
     width: 100%;
+    height: auto;
 }
 #desc_container{
     flex: 1;
@@ -26,7 +28,6 @@ body{
     gap: 0.5em;
     padding: 0.5em;
     justify-content: center;
-    
 }
 #desc_container h5{
     text-align: center;
@@ -35,11 +36,11 @@ body{
 }
 #desc_container span{
     color: #4a4953;
+    font-weight: 700;
 }
 #desc_container article{
     text-align: center;
     outline: none;
-    
 }
 
 #desc_container button{
@@ -47,5 +48,22 @@ body{
     padding: 0.3em;
     font-weight: 600;
     font-size: 0.9em;
+    cursor: pointer;
     background-color: #eadb8f;
 }
+@media(max-width: 700px){
+    #card_container{
+        flex-direction: column;
+    }
+    #img_container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 975px ) and (min-width: 710px) {
+    #img_container{
+        width: 50%;
+    }
+}
+
+

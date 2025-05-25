@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#skeleton-container{
+    display: flex;
+    width:  50%;
+    padding: 15px;
+    background-color: #f0efef;
+    padding: 1px;
+}
+
+.skeleton {
+    background-color: rgb(192, 192, 192);
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+.photo {
+    width: 35%;
+    height: 150px;
+}
+.desc {
+    display: flex;
+    gap: 0.4em;
+    padding: 0.5em;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    width: 35%;
+    height: 8%;
+}
+.price {
+    width: 30%;
+    height: 8%;
+}
+.description {
+    width: 98%;
+    height: 40%;
+    
+}
+.button {
+    width: 95%;
+    height: 15%;
+}
+
+@media(max-width: 700px){
+    #skeleton-container{
+        flex-direction: column;
+    }
+    .photo{
+        width: 100%;
+    }
+}
+
+@media (max-width: 975px ) and (min-width: 710px) {
+    .photo{
+        width: 50%;
+    }
+}
+@keyframes pulse {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 1;
+    }
+}
