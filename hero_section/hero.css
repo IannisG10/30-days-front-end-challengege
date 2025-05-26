@@ -1,0 +1,14 @@
+#hero_section{
+    background-image: url('dish-img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    
+}
+
+h1{
+    color: white;
+}
+article{
+    color: white;
+}
